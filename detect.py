@@ -5,7 +5,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--mode", default="sentry", type=str, help="Desired Detection Mode")
 args = parser.parse_args()
 
-type = args.mode
+mode = args.mode
 
 if mode == 'sentry':
     rc = call("./detect.sh")
