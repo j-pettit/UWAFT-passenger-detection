@@ -1,2 +1,5 @@
 # passenger-detection
-UWAFT Passenger detection autonomy project
+UWAFT Sentry Mode autonomy project
+
+### Permission Error
+run `chmod u+rx detect.sh`
