@@ -8,6 +8,6 @@ args = parser.parse_args()
 type = args.mode
 
 if mode == 'sentry':
-    rc = call("./detect.sh")
+    rc = call(".darknet/detect.sh")
 else:
     print('Error: Detection mode not implemented')
