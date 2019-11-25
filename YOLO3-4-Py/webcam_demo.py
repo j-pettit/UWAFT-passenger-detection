@@ -24,13 +24,21 @@ if __name__ == "__main__":
             del dark_frame
 
             end_time = time.time()
-            print("Elapsed Time:",end_time-start_time)
+            humans = 0
+            pets = 0
+
+            # print("Elapsed Time:",end_time-start_time)
 
             for cat, score, bounds in results:
+                if cat in [b'dog', b'cat']
+                    pets += 1
+                elif cat == b'person':
+                    humans += 1
                 x, y, w, h = bounds
                 cv2.rectangle(frame, (int(x-w/2),int(y-h/2)),(int(x+w/2),int(y+h/2)),(255,0,0))
                 cv2.putText(frame, str(cat.decode("utf-8")), (int(x), int(y)), cv2.FONT_HERSHEY_COMPLEX, 1, (255, 255, 0))
 
+            print('Humans: ' + str(humans) + ', Pets: ' + str(pets))
             cv2.imshow("preview", frame)
 
         k = cv2.waitKey(1)
