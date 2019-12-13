@@ -1,5 +1,0 @@
-include __libdarknet/libdarknet.so
-include bridge.h
-include util.py
-include pydarknet.cpp
-include pypi_readme.md
