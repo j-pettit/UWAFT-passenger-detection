@@ -1,5 +1,5 @@
 # Sentry Mode
-UWAFT Passenger Detection Project (extended Python wrapper for darknet)
+UWAFT Passenger Detection Project (extended Python wrapper for darknet). Designed for NVIDIA Jetson TX2.
 
 For instructions related to the YOLOv3 Python wrapper or YOLOv3 code, see the associated repositories.
 - https://github.com/pjreddie/darknet
