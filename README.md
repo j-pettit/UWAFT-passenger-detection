@@ -1,9 +1,9 @@
 # Sentry Mode
-UWAFT Passenger Detection Project
+UWAFT Passenger Detection Project (extended Python wrapper for darknet)
 
-For instructions related to the base Python wrapper or YOLOv3 code, see the associated repositories.
-https://github.com/pjreddie/darknet
-https://github.com/madhawav/YOLO3-4-Py
+For instructions related to the YOLOv3 Python wrapper or YOLOv3 code, see the associated repositories.
+- https://github.com/pjreddie/darknet
+- https://github.com/madhawav/YOLO3-4-Py
 
 ### Setup Instructions
 ##### New Host
